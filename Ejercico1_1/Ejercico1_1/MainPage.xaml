@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercico1_1.MainPage"
+             >
+
+    <StackLayout>
+        <Frame BackgroundColor="#820514" Padding="24" CornerRadius="0">
+            <Label Text="Danny Cooper"  TextColor="White" FontSize="20"/>
+            <Label Text="Calculadora" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Numero 1" FontSize="16" Padding="30,10,30,10" />
+        <Entry Placeholder="ingrese numero 1" Margin="30,0,30,0" x:Name="txtNumero1" Keyboard="Numeric"/>
+        <Label Text="Numero 2" FontSize="16" Padding="30,10,30,10"/>
+        <Entry Placeholder="ingrese numero 2" Margin="30,0,30,0" x:Name="txtNumero2" Keyboard="Numeric"/>
+        <Button Text="Suma" Margin="30,0,30,0" x:Name="btnSumar" Clicked="btnSumar_Clicked" BackgroundColor="#42171c"/>
+        <Button Text="Resta" Margin="30,0,30,0" x:Name="btnRestar" Clicked="btnRestar_Clicked" BackgroundColor="#42171c"/>
+        <Button Text="Multiplicacion" Margin="30,0,30,0" x:Name="btnMultiplicar" Clicked="btnMultiplicar_Clicked" BackgroundColor="#42171c"/>
+        <Button Text="Division" Margin="30,0,30,0" x:Name="btnDividir" Clicked="btnDividir_Clicked" BackgroundColor="#42171c"/>
+    </StackLayout>
+
+</ContentPage>
